@@ -6,7 +6,7 @@
 #
 Name     : kquickcharts
 Version  : 5.75.0
-Release  : 8
+Release  : 9
 URL      : https://download.kde.org/stable/frameworks/5.75/kquickcharts-5.75.0.tar.xz
 Source0  : https://download.kde.org/stable/frameworks/5.75/kquickcharts-5.75.0.tar.xz
 Source1  : https://download.kde.org/stable/frameworks/5.75/kquickcharts-5.75.0.tar.xz.sig
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1602604382
+export SOURCE_DATE_EPOCH=1602617334
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -81,7 +81,7 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1602604382
+export SOURCE_DATE_EPOCH=1602617334
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kquickcharts
 cp %{_builddir}/kquickcharts-5.75.0/LICENSES/LGPL-2.1-only.txt %{buildroot}/usr/share/package-licenses/kquickcharts/3c3d7573e137d48253731c975ecf90d74cfa9efe
