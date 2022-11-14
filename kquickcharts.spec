@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kquickcharts
-Version  : 5.99.0
-Release  : 32
-URL      : https://download.kde.org/stable/frameworks/5.99/kquickcharts-5.99.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.99/kquickcharts-5.99.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.99/kquickcharts-5.99.0.tar.xz.sig
+Version  : 5.100.0
+Release  : 33
+URL      : https://download.kde.org/stable/frameworks/5.100/kquickcharts-5.100.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.100/kquickcharts-5.100.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.100/kquickcharts-5.100.0.tar.xz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : LGPL-2.1 LGPL-3.0 MIT
@@ -67,15 +67,15 @@ license components for the kquickcharts package.
 
 
 %prep
-%setup -q -n kquickcharts-5.99.0
-cd %{_builddir}/kquickcharts-5.99.0
+%setup -q -n kquickcharts-5.100.0
+cd %{_builddir}/kquickcharts-5.100.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1665417449
+export SOURCE_DATE_EPOCH=1668444224
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -91,7 +91,7 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1665417449
+export SOURCE_DATE_EPOCH=1668444224
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kquickcharts
 cp %{_builddir}/kquickcharts-%{version}/LICENSES/LGPL-2.1-only.txt %{buildroot}/usr/share/package-licenses/kquickcharts/3c3d7573e137d48253731c975ecf90d74cfa9efe || :
