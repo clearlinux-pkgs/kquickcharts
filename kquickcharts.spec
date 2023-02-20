@@ -6,7 +6,7 @@
 #
 Name     : kquickcharts
 Version  : 5.103.0
-Release  : 36
+Release  : 37
 URL      : https://download.kde.org/stable/frameworks/5.103/kquickcharts-5.103.0.tar.xz
 Source0  : https://download.kde.org/stable/frameworks/5.103/kquickcharts-5.103.0.tar.xz
 Source1  : https://download.kde.org/stable/frameworks/5.103/kquickcharts-5.103.0.tar.xz.sig
@@ -78,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1676308105
+export SOURCE_DATE_EPOCH=1676854034
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -94,7 +94,7 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1676308105
+export SOURCE_DATE_EPOCH=1676854034
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kquickcharts
 cp %{_builddir}/kquickcharts-%{version}/LICENSES/BSD-2-Clause.txt %{buildroot}/usr/share/package-licenses/kquickcharts/07c1ab270255cf247438e2358ff0c18835b6a6ce || :
