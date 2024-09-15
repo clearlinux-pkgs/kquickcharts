@@ -1,317 +1,138 @@
-libQuickCharts.so.1:qml_register_types_org_kde_quickcharts()
-libQuickCharts.so.1:RangeGroup::setMinimum(double)
-libQuickCharts.so.1:RangeGroup::fromChanged()
-libQuickCharts.so.1:RangeGroup::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:RangeGroup::qt_metacast(char const*)
-libQuickCharts.so.1:RangeGroup::rangeChanged()
-libQuickCharts.so.1:RangeGroup::setAutomatic(bool)
-libQuickCharts.so.1:RangeGroup::setIncrement(double)
-libQuickCharts.so.1:RangeGroup::calculateRange(QList<ChartDataSource*> const&, std::function<double (ChartDataSource*)>, std::function<double (ChartDataSource*)>)
-libQuickCharts.so.1:RangeGroup::minimumChanged()
-libQuickCharts.so.1:RangeGroup::automaticChanged()
-libQuickCharts.so.1:RangeGroup::incrementChanged()
-libQuickCharts.so.1:RangeGroup::setTo(double)
-libQuickCharts.so.1:RangeGroup::setFrom(double)
-libQuickCharts.so.1:RangeGroup::toChanged()
-libQuickCharts.so.1:RangeGroup::RangeGroup(QObject*)
-libQuickCharts.so.1:RangeGroup::RangeGroup(QObject*)
-libQuickCharts.so.1:ArraySource::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:ArraySource::qt_metacast(char const*)
+libQuickCharts.so.1:ArraySource::ArraySource(QObject*)
 libQuickCharts.so.1:ArraySource::setWrap(bool)
-libQuickCharts.so.1:ArraySource::setArray(QList<QVariant> const&)
-libQuickCharts.so.1:ArraySource::ArraySource(QObject*)
-libQuickCharts.so.1:ArraySource::ArraySource(QObject*)
-libQuickCharts.so.1:ItemBuilder::setContext(QQmlContext*)
-libQuickCharts.so.1:ItemBuilder::beginCreate(int, QQuickItem*)
-libQuickCharts.so.1:ItemBuilder::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:ItemBuilder::qt_metacast(char const*)
-libQuickCharts.so.1:ItemBuilder::setComponent(QQmlComponent*)
-libQuickCharts.so.1:ItemBuilder::setIncubationMode(QQmlIncubator::IncubationMode)
-libQuickCharts.so.1:ItemBuilder::setInitialProperties(QMap<QString, QVariant> const&)
-libQuickCharts.so.1:ItemBuilder::build(QQuickItem*)
-libQuickCharts.so.1:ItemBuilder::clear()
-libQuickCharts.so.1:ItemBuilder::finished()
-libQuickCharts.so.1:ItemBuilder::setCount(int)
-libQuickCharts.so.1:ItemBuilder::endCreate(int, QQuickItem*)
-libQuickCharts.so.1:ItemBuilder::ItemBuilder(QObject*)
-libQuickCharts.so.1:ItemBuilder::ItemBuilder(QObject*)
-libQuickCharts.so.1:ItemBuilder::~ItemBuilder()
-libQuickCharts.so.1:ItemBuilder::~ItemBuilder()
-libQuickCharts.so.1:ItemBuilder::~ItemBuilder()
-libQuickCharts.so.1:ModelSource::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:ModelSource::qt_metacast(char const*)
-libQuickCharts.so.1:ModelSource::roleChanged()
-libQuickCharts.so.1:ModelSource::setRoleName(QString const&)
-libQuickCharts.so.1:ModelSource::modelChanged()
-libQuickCharts.so.1:ModelSource::columnChanged()
-libQuickCharts.so.1:ModelSource::roleNameChanged()
-libQuickCharts.so.1:ModelSource::setIndexColumns(bool)
-libQuickCharts.so.1:ModelSource::onMaximumChanged()
-libQuickCharts.so.1:ModelSource::onMinimumChanged()
-libQuickCharts.so.1:ModelSource::indexColumnsChanged()
-libQuickCharts.so.1:ModelSource::setRole(int)
-libQuickCharts.so.1:ModelSource::setModel(QAbstractItemModel*)
-libQuickCharts.so.1:ModelSource::setColumn(int)
-libQuickCharts.so.1:ModelSource::ModelSource(QObject*)
-libQuickCharts.so.1:ModelSource::ModelSource(QObject*)
-libQuickCharts.so.1:MapProxySource::mapChanged()
-libQuickCharts.so.1:MapProxySource::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:MapProxySource::qt_metacast(char const*)
-libQuickCharts.so.1:MapProxySource::sourceChanged()
-libQuickCharts.so.1:MapProxySource::setMap(QMap<QString, QVariant> const&)
-libQuickCharts.so.1:MapProxySource::setSource(ChartDataSource*)
-libQuickCharts.so.1:MapProxySource::MapProxySource(QObject*)
-libQuickCharts.so.1:MapProxySource::MapProxySource(QObject*)
+libQuickCharts.so.1:BarChart::BarChart(QQuickItem*)
+libQuickCharts.so.1:BarChart::backgroundColorChanged()
+libQuickCharts.so.1:BarChart::barWidthChanged()
+libQuickCharts.so.1:BarChart::calculateBars()
+libQuickCharts.so.1:BarChart::onDataChanged()
+libQuickCharts.so.1:BarChart::orientationChanged()
+libQuickCharts.so.1:BarChart::radiusChanged()
+libQuickCharts.so.1:BarChart::setBarWidth(double)
+libQuickCharts.so.1:BarChart::setOrientation(BarChart::Orientation)
+libQuickCharts.so.1:BarChart::setRadius(double)
+libQuickCharts.so.1:BarChart::setSpacing(double)
+libQuickCharts.so.1:BarChart::spacingChanged()
+libQuickCharts.so.1:Chart::Chart(QQuickItem*)
+libQuickCharts.so.1:Chart::clearSources(QQmlListProperty<ChartDataSource>*)
+libQuickCharts.so.1:Chart::colorSourceChanged()
+libQuickCharts.so.1:Chart::componentComplete()
+libQuickCharts.so.1:Chart::dataChanged()
+libQuickCharts.so.1:Chart::highlightChanged()
+libQuickCharts.so.1:Chart::indexingModeChanged()
+libQuickCharts.so.1:Chart::nameSourceChanged()
+libQuickCharts.so.1:Chart::removeLastSource(QQmlListProperty<ChartDataSource>*)
+libQuickCharts.so.1:Chart::removeValueSource(QObject*)
+libQuickCharts.so.1:Chart::removeValueSource(int)
+libQuickCharts.so.1:Chart::resetHighlight()
+libQuickCharts.so.1:Chart::setColorSource(ChartDataSource*)
+libQuickCharts.so.1:Chart::setHighlight(int)
+libQuickCharts.so.1:Chart::setIndexingMode(Chart::IndexingMode)
+libQuickCharts.so.1:Chart::setNameSource(ChartDataSource*)
+libQuickCharts.so.1:Chart::setShortNameSource(ChartDataSource*)
+libQuickCharts.so.1:Chart::shortNameSourceChanged()
+libQuickCharts.so.1:Chart::sourceCount(QQmlListProperty<ChartDataSource>*)
+libQuickCharts.so.1:Chart::valueSourcesChanged()
+libQuickCharts.so.1:Chart::valueSourcesProperty()
+libQuickCharts.so.1:ChartAxisSource::ChartAxisSource(QObject*)
 libQuickCharts.so.1:ChartAxisSource::axisChanged()
-libQuickCharts.so.1:ChartAxisSource::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:ChartAxisSource::qt_metacast(char const*)
 libQuickCharts.so.1:ChartAxisSource::chartChanged()
-libQuickCharts.so.1:ChartAxisSource::setItemCount(int)
 libQuickCharts.so.1:ChartAxisSource::itemCountChanged()
 libQuickCharts.so.1:ChartAxisSource::setAxis(ChartAxisSource::Axis)
 libQuickCharts.so.1:ChartAxisSource::setChart(XYChart*)
-libQuickCharts.so.1:ChartAxisSource::ChartAxisSource(QObject*)
-libQuickCharts.so.1:ChartAxisSource::ChartAxisSource(QObject*)
+libQuickCharts.so.1:ChartAxisSource::setItemCount(int)
+libQuickCharts.so.1:ChartDataSource::ChartDataSource(QObject*)
 libQuickCharts.so.1:ChartDataSource::dataChanged()
-libQuickCharts.so.1:ChartDataSource::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:ChartDataSource::qt_metacast(char const*)
-libQuickCharts.so.1:ChartDataSource::variantCompare(QVariant const&, QVariant const&)
-libQuickCharts.so.1:ChartDataSource::ChartDataSource(QObject*)
-libQuickCharts.so.1:ChartDataSource::ChartDataSource(QObject*)
-libQuickCharts.so.1:SingleValueSource::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:SingleValueSource::qt_metacast(char const*)
-libQuickCharts.so.1:SingleValueSource::setValue(QVariant const&)
-libQuickCharts.so.1:SingleValueSource::SingleValueSource(QObject*)
-libQuickCharts.so.1:SingleValueSource::SingleValueSource(QObject*)
-libQuickCharts.so.1:HistoryProxySource::itemChanged()
-libQuickCharts.so.1:HistoryProxySource::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:HistoryProxySource::qt_metacast(char const*)
-libQuickCharts.so.1:HistoryProxySource::setFillMode(HistoryProxySource::FillMode)
-libQuickCharts.so.1:HistoryProxySource::setInterval(int)
-libQuickCharts.so.1:HistoryProxySource::sourceChanged()
-libQuickCharts.so.1:HistoryProxySource::fillModeChanged()
-libQuickCharts.so.1:HistoryProxySource::intervalChanged()
-libQuickCharts.so.1:HistoryProxySource::setMaximumHistory(int)
-libQuickCharts.so.1:HistoryProxySource::maximumHistoryChanged()
-libQuickCharts.so.1:HistoryProxySource::clear()
-libQuickCharts.so.1:HistoryProxySource::update()
-libQuickCharts.so.1:HistoryProxySource::setItem(int)
-libQuickCharts.so.1:HistoryProxySource::setSource(ChartDataSource*)
-libQuickCharts.so.1:HistoryProxySource::HistoryProxySource(QObject*)
-libQuickCharts.so.1:HistoryProxySource::HistoryProxySource(QObject*)
-libQuickCharts.so.1:ColorGradientSource::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:ColorGradientSource::qt_metacast(char const*)
-libQuickCharts.so.1:ColorGradientSource::setBaseColor(QColor const&)
-libQuickCharts.so.1:ColorGradientSource::setItemCount(int)
+libQuickCharts.so.1:ColorGradientSource::ColorGradientSource(QObject*)
 libQuickCharts.so.1:ColorGradientSource::baseColorChanged()
 libQuickCharts.so.1:ColorGradientSource::itemCountChanged()
 libQuickCharts.so.1:ColorGradientSource::regenerateColors()
-libQuickCharts.so.1:ColorGradientSource::ColorGradientSource(QObject*)
-libQuickCharts.so.1:ColorGradientSource::ColorGradientSource(QObject*)
-libQuickCharts.so.1:Chart::desaturate(QColor const&)
-libQuickCharts.so.1:Chart::dataChanged()
-libQuickCharts.so.1:Chart::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:Chart::qt_metacast(char const*)
-libQuickCharts.so.1:Chart::sourceCount(QQmlListProperty<ChartDataSource>*)
-libQuickCharts.so.1:Chart::appendSource(QQmlListProperty<ChartDataSource>*, ChartDataSource*)
-libQuickCharts.so.1:Chart::clearSources(QQmlListProperty<ChartDataSource>*)
-libQuickCharts.so.1:Chart::setHighlight(int)
-libQuickCharts.so.1:Chart::replaceSource(QQmlListProperty<ChartDataSource>*, long long, ChartDataSource*)
-libQuickCharts.so.1:Chart::setNameSource(ChartDataSource*)
-libQuickCharts.so.1:Chart::resetHighlight()
-libQuickCharts.so.1:Chart::setColorSource(ChartDataSource*)
-libQuickCharts.so.1:Chart::setIndexingMode(Chart::IndexingMode)
-libQuickCharts.so.1:Chart::highlightChanged()
-libQuickCharts.so.1:Chart::removeLastSource(QQmlListProperty<ChartDataSource>*)
-libQuickCharts.so.1:Chart::componentComplete()
-libQuickCharts.so.1:Chart::insertValueSource(int, ChartDataSource*)
-libQuickCharts.so.1:Chart::nameSourceChanged()
-libQuickCharts.so.1:Chart::removeValueSource(QObject*)
-libQuickCharts.so.1:Chart::removeValueSource(int)
-libQuickCharts.so.1:Chart::colorSourceChanged()
-libQuickCharts.so.1:Chart::setShortNameSource(ChartDataSource*)
-libQuickCharts.so.1:Chart::indexingModeChanged()
-libQuickCharts.so.1:Chart::valueSourcesChanged()
-libQuickCharts.so.1:Chart::valueSourcesProperty()
-libQuickCharts.so.1:Chart::shortNameSourceChanged()
-libQuickCharts.so.1:Chart::source(QQmlListProperty<ChartDataSource>*, long long)
-libQuickCharts.so.1:Chart::Chart(QQuickItem*)
-libQuickCharts.so.1:Chart::Chart(QQuickItem*)
-libQuickCharts.so.1:XYChart::setStacked(bool)
-libQuickCharts.so.1:XYChart::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:XYChart::qt_metacast(char const*)
-libQuickCharts.so.1:XYChart::setDirection(XYChart::Direction)
-libQuickCharts.so.1:XYChart::stackedChanged()
-libQuickCharts.so.1:XYChart::directionChanged()
-libQuickCharts.so.1:XYChart::setComputedRange(ComputedRange)
-libQuickCharts.so.1:XYChart::updateComputedRange()
-libQuickCharts.so.1:XYChart::computedRangeChanged()
-libQuickCharts.so.1:XYChart::XYChart(QQuickItem*)
-libQuickCharts.so.1:XYChart::XYChart(QQuickItem*)
-libQuickCharts.so.1:BarChart::setSpacing(double)
-libQuickCharts.so.1:BarChart::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:BarChart::qt_metacast(char const*)
-libQuickCharts.so.1:BarChart::setBarWidth(double)
-libQuickCharts.so.1:BarChart::calculateBars()
-libQuickCharts.so.1:BarChart::onDataChanged()
-libQuickCharts.so.1:BarChart::radiusChanged()
-libQuickCharts.so.1:BarChart::setOrientation(BarChart::Orientation)
-libQuickCharts.so.1:BarChart::spacingChanged()
-libQuickCharts.so.1:BarChart::barWidthChanged()
-libQuickCharts.so.1:BarChart::updatePaintNode(QSGNode*, QQuickItem::UpdatePaintNodeData*)
-libQuickCharts.so.1:BarChart::orientationChanged()
-libQuickCharts.so.1:BarChart::setBackgroundColor(QColor const&)
-libQuickCharts.so.1:BarChart::backgroundColorChanged()
-libQuickCharts.so.1:BarChart::setRadius(double)
-libQuickCharts.so.1:BarChart::BarChart(QQuickItem*)
-libQuickCharts.so.1:BarChart::BarChart(QQuickItem*)
-libQuickCharts.so.1:PieChart::setSpacing(double)
-libQuickCharts.so.1:PieChart::setToAngle(double)
-libQuickCharts.so.1:PieChart::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:PieChart::qt_metacast(char const*)
-libQuickCharts.so.1:PieChart::setFromAngle(double)
-libQuickCharts.so.1:PieChart::setThickness(double)
-libQuickCharts.so.1:PieChart::filledChanged()
-libQuickCharts.so.1:PieChart::onDataChanged()
-libQuickCharts.so.1:PieChart::setSmoothEnds(bool)
-libQuickCharts.so.1:PieChart::spacingChanged()
-libQuickCharts.so.1:PieChart::toAngleChanged()
-libQuickCharts.so.1:PieChart::updatePaintNode(QSGNode*, QQuickItem::UpdatePaintNodeData*)
-libQuickCharts.so.1:PieChart::fromAngleChanged()
-libQuickCharts.so.1:PieChart::thicknessChanged()
-libQuickCharts.so.1:PieChart::smoothEndsChanged()
-libQuickCharts.so.1:PieChart::setBackgroundColor(QColor const&)
-libQuickCharts.so.1:PieChart::backgroundColorChanged()
-libQuickCharts.so.1:PieChart::setFilled(bool)
-libQuickCharts.so.1:PieChart::PieChart(QQuickItem*)
-libQuickCharts.so.1:PieChart::PieChart(QQuickItem*)
-libQuickCharts.so.1:LineChart::qt_metacall(QMetaObject::Call, int, void**)
-libQuickCharts.so.1:LineChart::qt_metacast(char const*)
-libQuickCharts.so.1:LineChart::setLineWidth(double)
-libQuickCharts.so.1:LineChart::updatePolish()
-libQuickCharts.so.1:LineChart::onDataChanged()
-libQuickCharts.so.1:LineChart::geometryChange(QRectF const&, QRectF const&)
-libQuickCharts.so.1:LineChart::setFillOpacity(double)
-libQuickCharts.so.1:LineChart::setInterpolate(bool)
-libQuickCharts.so.1:LineChart::updateLineNode(LineChartNode*, ChartDataSource*, QColor const&, QColor const&, double)
-libQuickCharts.so.1:LineChart::updatePaintNode(QSGNode*, QQuickItem::UpdatePaintNodeData*)
-libQuickCharts.so.1:LineChart::lineWidthChanged()
-libQuickCharts.so.1:LineChart::setPointDelegate(QQmlComponent*)
+libQuickCharts.so.1:ColorGradientSource::setItemCount(int)
+libQuickCharts.so.1:HistoryProxySource::HistoryProxySource(QObject*)
+libQuickCharts.so.1:HistoryProxySource::clear()
+libQuickCharts.so.1:HistoryProxySource::fillModeChanged()
+libQuickCharts.so.1:HistoryProxySource::intervalChanged()
+libQuickCharts.so.1:HistoryProxySource::itemChanged()
+libQuickCharts.so.1:HistoryProxySource::maximumHistoryChanged()
+libQuickCharts.so.1:HistoryProxySource::setFillMode(HistoryProxySource::FillMode)
+libQuickCharts.so.1:HistoryProxySource::setInterval(int)
+libQuickCharts.so.1:HistoryProxySource::setItem(int)
+libQuickCharts.so.1:HistoryProxySource::setMaximumHistory(int)
+libQuickCharts.so.1:HistoryProxySource::setSource(ChartDataSource*)
+libQuickCharts.so.1:HistoryProxySource::sourceChanged()
+libQuickCharts.so.1:HistoryProxySource::update()
+libQuickCharts.so.1:ItemBuilder::ItemBuilder(QObject*)
+libQuickCharts.so.1:ItemBuilder::build(QQuickItem*)
+libQuickCharts.so.1:ItemBuilder::clear()
+libQuickCharts.so.1:ItemBuilder::finished()
+libQuickCharts.so.1:ItemBuilder::setComponent(QQmlComponent*)
+libQuickCharts.so.1:ItemBuilder::setContext(QQmlContext*)
+libQuickCharts.so.1:ItemBuilder::setCount(int)
+libQuickCharts.so.1:ItemBuilder::setIncubationMode(QQmlIncubator::IncubationMode)
+libQuickCharts.so.1:ItemBuilder::~ItemBuilder()
+libQuickCharts.so.1:LineChart::LineChart(QQuickItem*)
+libQuickCharts.so.1:LineChart::fillColorSourceChanged()
 libQuickCharts.so.1:LineChart::fillOpacityChanged()
 libQuickCharts.so.1:LineChart::interpolateChanged()
-libQuickCharts.so.1:LineChart::setFillColorSource(ChartDataSource*)
-libQuickCharts.so.1:LineChart::updatePointDelegate(QQuickItem*, QVector2D const&, QVariant const&, int)
-libQuickCharts.so.1:LineChart::createPointDelegates(QList<QVector2D> const&, int)
+libQuickCharts.so.1:LineChart::lineWidthChanged()
+libQuickCharts.so.1:LineChart::onDataChanged()
 libQuickCharts.so.1:LineChart::pointDelegateChanged()
-libQuickCharts.so.1:LineChart::fillColorSourceChanged()
-libQuickCharts.so.1:LineChart::LineChart(QQuickItem*)
-libQuickCharts.so.1:LineChart::LineChart(QQuickItem*)
-libQuickCharts.so.1:RangeGroup::metaObject() const
-libQuickCharts.so.1:RangeGroup::to() const
-libQuickCharts.so.1:RangeGroup::from() const
-libQuickCharts.so.1:RangeGroup::isValid() const
-libQuickCharts.so.1:RangeGroup::minimum() const
-libQuickCharts.so.1:RangeGroup::distance() const
-libQuickCharts.so.1:RangeGroup::automatic() const
-libQuickCharts.so.1:RangeGroup::increment() const
-libQuickCharts.so.1:ArraySource::metaObject() const
-libQuickCharts.so.1:ArraySource::item(int) const
-libQuickCharts.so.1:ArraySource::wrap() const
-libQuickCharts.so.1:ArraySource::array() const
-libQuickCharts.so.1:ArraySource::maximum() const
-libQuickCharts.so.1:ArraySource::minimum() const
-libQuickCharts.so.1:ArraySource::itemCount() const
-libQuickCharts.so.1:ItemBuilder::isFinished() const
-libQuickCharts.so.1:ItemBuilder::metaObject() const
-libQuickCharts.so.1:ItemBuilder::incubationMode() const
-libQuickCharts.so.1:ItemBuilder::initialProperties() const
-libQuickCharts.so.1:ItemBuilder::count() const
-libQuickCharts.so.1:ItemBuilder::items() const
-libQuickCharts.so.1:ItemBuilder::context() const
-libQuickCharts.so.1:ItemBuilder::component() const
-libQuickCharts.so.1:ModelSource::metaObject() const
-libQuickCharts.so.1:ModelSource::indexColumns() const
-libQuickCharts.so.1:ModelSource::item(int) const
-libQuickCharts.so.1:ModelSource::role() const
-libQuickCharts.so.1:ModelSource::model() const
-libQuickCharts.so.1:ModelSource::column() const
-libQuickCharts.so.1:ModelSource::maximum() const
-libQuickCharts.so.1:ModelSource::minimum() const
-libQuickCharts.so.1:ModelSource::roleName() const
-libQuickCharts.so.1:ModelSource::itemCount() const
-libQuickCharts.so.1:MapProxySource::metaObject() const
-libQuickCharts.so.1:MapProxySource::map() const
-libQuickCharts.so.1:MapProxySource::item(int) const
-libQuickCharts.so.1:MapProxySource::source() const
-libQuickCharts.so.1:MapProxySource::maximum() const
-libQuickCharts.so.1:MapProxySource::minimum() const
-libQuickCharts.so.1:MapProxySource::itemCount() const
-libQuickCharts.so.1:ChartAxisSource::metaObject() const
-libQuickCharts.so.1:ChartAxisSource::axis() const
-libQuickCharts.so.1:ChartAxisSource::item(int) const
-libQuickCharts.so.1:ChartAxisSource::chart() const
-libQuickCharts.so.1:ChartAxisSource::maximum() const
-libQuickCharts.so.1:ChartAxisSource::minimum() const
-libQuickCharts.so.1:ChartAxisSource::itemCount() const
-libQuickCharts.so.1:ChartDataSource::metaObject() const
-libQuickCharts.so.1:ChartDataSource::first() const
-libQuickCharts.so.1:SingleValueSource::metaObject() const
-libQuickCharts.so.1:SingleValueSource::item(int) const
-libQuickCharts.so.1:SingleValueSource::value() const
-libQuickCharts.so.1:SingleValueSource::maximum() const
-libQuickCharts.so.1:SingleValueSource::minimum() const
-libQuickCharts.so.1:SingleValueSource::itemCount() const
-libQuickCharts.so.1:HistoryProxySource::metaObject() const
-libQuickCharts.so.1:HistoryProxySource::maximumHistory() const
-libQuickCharts.so.1:HistoryProxySource::item(int) const
-libQuickCharts.so.1:HistoryProxySource::item() const
-libQuickCharts.so.1:HistoryProxySource::first() const
-libQuickCharts.so.1:HistoryProxySource::source() const
-libQuickCharts.so.1:HistoryProxySource::maximum() const
-libQuickCharts.so.1:HistoryProxySource::minimum() const
-libQuickCharts.so.1:HistoryProxySource::fillMode() const
-libQuickCharts.so.1:HistoryProxySource::interval() const
-libQuickCharts.so.1:HistoryProxySource::itemCount() const
-libQuickCharts.so.1:ColorGradientSource::metaObject() const
-libQuickCharts.so.1:ColorGradientSource::item(int) const
-libQuickCharts.so.1:ColorGradientSource::colors() const
-libQuickCharts.so.1:ColorGradientSource::maximum() const
-libQuickCharts.so.1:ColorGradientSource::minimum() const
-libQuickCharts.so.1:ColorGradientSource::baseColor() const
-libQuickCharts.so.1:ColorGradientSource::itemCount() const
-libQuickCharts.so.1:Chart::metaObject() const
-libQuickCharts.so.1:Chart::nameSource() const
-libQuickCharts.so.1:Chart::colorSource() const
-libQuickCharts.so.1:Chart::indexingMode() const
-libQuickCharts.so.1:Chart::valueSources() const
-libQuickCharts.so.1:Chart::shortNameSource() const
-libQuickCharts.so.1:Chart::highlight() const
-libQuickCharts.so.1:XYChart::metaObject() const
-libQuickCharts.so.1:XYChart::computedRange() const
-libQuickCharts.so.1:XYChart::xRange() const
-libQuickCharts.so.1:XYChart::yRange() const
-libQuickCharts.so.1:XYChart::stacked() const
-libQuickCharts.so.1:XYChart::direction() const
-libQuickCharts.so.1:BarChart::metaObject() const
-libQuickCharts.so.1:BarChart::orientation() const
-libQuickCharts.so.1:BarChart::backgroundColor() const
-libQuickCharts.so.1:BarChart::radius() const
-libQuickCharts.so.1:BarChart::spacing() const
-libQuickCharts.so.1:BarChart::barWidth() const
-libQuickCharts.so.1:PieChart::metaObject() const
-libQuickCharts.so.1:PieChart::smoothEnds() const
-libQuickCharts.so.1:PieChart::backgroundColor() const
-libQuickCharts.so.1:PieChart::range() const
-libQuickCharts.so.1:PieChart::filled() const
-libQuickCharts.so.1:PieChart::spacing() const
-libQuickCharts.so.1:PieChart::toAngle() const
-libQuickCharts.so.1:PieChart::fromAngle() const
-libQuickCharts.so.1:PieChart::thickness() const
-libQuickCharts.so.1:LineChart::metaObject() const
-libQuickCharts.so.1:LineChart::fillOpacity() const
-libQuickCharts.so.1:LineChart::interpolate() const
-libQuickCharts.so.1:LineChart::pointDelegate() const
-libQuickCharts.so.1:LineChart::fillColorSource() const
-libQuickCharts.so.1:LineChart::lineWidth() const
-libQuickCharts.so.1:non-virtual thunk to Chart::componentComplete()
+libQuickCharts.so.1:LineChart::setFillColorSource(ChartDataSource*)
+libQuickCharts.so.1:LineChart::setFillOpacity(double)
+libQuickCharts.so.1:LineChart::setInterpolate(bool)
+libQuickCharts.so.1:LineChart::setLineWidth(double)
+libQuickCharts.so.1:LineChart::setPointDelegate(QQmlComponent*)
+libQuickCharts.so.1:LineChart::updatePolish()
+libQuickCharts.so.1:MapProxySource::MapProxySource(QObject*)
+libQuickCharts.so.1:MapProxySource::mapChanged()
+libQuickCharts.so.1:MapProxySource::setSource(ChartDataSource*)
+libQuickCharts.so.1:MapProxySource::sourceChanged()
+libQuickCharts.so.1:ModelSource::ModelSource(QObject*)
+libQuickCharts.so.1:ModelSource::columnChanged()
+libQuickCharts.so.1:ModelSource::indexColumnsChanged()
+libQuickCharts.so.1:ModelSource::modelChanged()
+libQuickCharts.so.1:ModelSource::onMaximumChanged()
+libQuickCharts.so.1:ModelSource::onMinimumChanged()
+libQuickCharts.so.1:ModelSource::roleChanged()
+libQuickCharts.so.1:ModelSource::roleNameChanged()
+libQuickCharts.so.1:ModelSource::setColumn(int)
+libQuickCharts.so.1:ModelSource::setIndexColumns(bool)
+libQuickCharts.so.1:ModelSource::setModel(QAbstractItemModel*)
+libQuickCharts.so.1:ModelSource::setRole(int)
+libQuickCharts.so.1:PieChart::PieChart(QQuickItem*)
+libQuickCharts.so.1:PieChart::backgroundColorChanged()
+libQuickCharts.so.1:PieChart::filledChanged()
+libQuickCharts.so.1:PieChart::fromAngleChanged()
+libQuickCharts.so.1:PieChart::onDataChanged()
+libQuickCharts.so.1:PieChart::setFilled(bool)
+libQuickCharts.so.1:PieChart::setFromAngle(double)
+libQuickCharts.so.1:PieChart::setSmoothEnds(bool)
+libQuickCharts.so.1:PieChart::setSpacing(double)
+libQuickCharts.so.1:PieChart::setThickness(double)
+libQuickCharts.so.1:PieChart::setToAngle(double)
+libQuickCharts.so.1:PieChart::smoothEndsChanged()
+libQuickCharts.so.1:PieChart::spacingChanged()
+libQuickCharts.so.1:PieChart::thicknessChanged()
+libQuickCharts.so.1:PieChart::toAngleChanged()
+libQuickCharts.so.1:RangeGroup::RangeGroup(QObject*)
+libQuickCharts.so.1:RangeGroup::automaticChanged()
+libQuickCharts.so.1:RangeGroup::fromChanged()
+libQuickCharts.so.1:RangeGroup::incrementChanged()
+libQuickCharts.so.1:RangeGroup::minimumChanged()
+libQuickCharts.so.1:RangeGroup::rangeChanged()
+libQuickCharts.so.1:RangeGroup::setAutomatic(bool)
+libQuickCharts.so.1:RangeGroup::setFrom(double)
+libQuickCharts.so.1:RangeGroup::setIncrement(double)
+libQuickCharts.so.1:RangeGroup::setMinimum(double)
+libQuickCharts.so.1:RangeGroup::setTo(double)
+libQuickCharts.so.1:RangeGroup::toChanged()
+libQuickCharts.so.1:SingleValueSource::SingleValueSource(QObject*)
+libQuickCharts.so.1:XYChart::XYChart(QQuickItem*)
+libQuickCharts.so.1:XYChart::computedRangeChanged()
+libQuickCharts.so.1:XYChart::directionChanged()
+libQuickCharts.so.1:XYChart::setComputedRange(ComputedRange)
+libQuickCharts.so.1:XYChart::setDirection(XYChart::Direction)
+libQuickCharts.so.1:XYChart::setStacked(bool)
+libQuickCharts.so.1:XYChart::stackedChanged()
+libQuickCharts.so.1:XYChart::updateComputedRange()
+libQuickCharts.so.1:qml_register_types_org_kde_quickcharts()
 libQuickChartsControls.so.1:qml_register_types_org_kde_quickcharts_controls()
